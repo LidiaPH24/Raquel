@@ -1,0 +1,463 @@
+@font-face {
+    font-family: "Dalek";
+    src:
+        local("Dalek"),
+        url("Tipografias/Dalek.ttf");
+}
+
+#Dalek {
+    font-family: Dalek;
+}
+
+@font-face {
+    font-family: "Greek-Freak";
+    src:
+        local("Greek-Freak"),
+        url("Tipografias/Greek-Freak.ttf");
+}
+
+#Greek-Freak {
+    font-family: Greek-Freak;
+}
+
+@font-face {
+    font-family: "ROMANUS";
+    src:
+        local("ROMANUS"),
+        url("Tipografias/ROMANUS.otf");
+}
+
+#ROMANUS {
+    font-family: ROMANUS;
+}
+
+@font-face {
+    font-family: "Romanica";
+    src:
+        local("Romanica"),
+        url("Tipografias/Romanica.ttf");
+}
+
+#Romanica {
+    font-family: Romanica;
+}
+
+
+@font-face {
+    font-family: "SteinAntik-Bold";
+    src:
+        local("SteinAntik-Bold"),
+        url("Tipografias/SteinAntik-Bold.ttf");
+}
+
+#SteinAntik-Bold {
+    font-family: SteinAntik-Bold;
+}
+
+@font-face {
+    font-family: "font_Caligo";
+    src:
+        local("font_Caligo"),
+        url("Tipografias/font_Caligo1.0.ttf");
+}
+
+#font_Caligo {
+    font-family: font_Caligo;
+}
+
+@font-face {
+    font-family: "AUGUSTUS";
+    src:
+        local("AUGUSTUS"),
+        url("Tipografias/AUGUSTUS.TTF");
+}
+
+#AUGUSTUS {
+    font-family: AUGUSTUS;
+}
+
+@font-face {
+    font-family: "SteinAntik-Light";
+    src:
+        local("SteinAntik-Light"),
+        url("Tipografias/SteinAntik-Light.ttf");
+}
+
+#SteinAntik-Light {
+    font-family: SteinAntik-Light;
+}
+
+@font-face {
+    font-family: "GreekHouse_Symbolized_Free";
+    src:
+        local("GreekHouse_Symbolized_Free"),
+        url("Tipografias/GreekHouse\ Symbolized_Free.ttf");
+}
+
+#GreekHouse_Symbolized_Free.ttf {
+    font-family: GreekHouse_Symbolized_Free;
+}
+
+@font-face {
+    font-family: "SteinAntik";
+    src:
+        local("SteinAntik"),
+        url("Tipografias/SteinAntik.ttf");
+}
+
+#SteinAntik {
+    font-family: SteinAntik;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    background-image: url("IMG/Imperio-Romano.jpg");
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    margin-top: -10px;
+    height: 1620px;
+    width: 1400px;
+    background-color: #8c0707a5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    color: #f2ac57;
+    margin: 40px;
+    text-align: center;
+    font-size: 80px;
+}
+
+img {
+    width: 300px;
+    height: 350px;
+}
+
+
+
+p {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: -4px;
+    color: #470101;
+}
+
+
+
+.caja-1 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    margin: 20px;
+    left: 100px;
+    box-shadow: 10px +10px 5px rgba(44, 34, 38, 0.641);
+    top: 50px;
+}
+
+.caja-1 img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.caja-1 h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    color: #470101;
+}
+
+.caja-2 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    margin: 20px;
+    left: 500px;
+    box-shadow: 10px +10px 5px rgba(44, 34, 38, 0.641);
+    top: 50px;
+}
+
+.caja-2 img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.caja-2 h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+.caja-3 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    margin: 20px;
+    left: 900px;
+    box-shadow: 10px +10px 5px rgba(44, 34, 38, 0.641);
+    top: 50px;
+}
+
+.caja-3 img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.caja-3 h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -2px;
+    margin-bottom: -4px;
+}
+
+/*  */
+.caja-4 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    margin: 20px;
+    left: 100px;
+    box-shadow: 10px +10px 5px rgba(44, 34, 38, 0.641);
+    top: 560px;
+}
+
+.caja-4 img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.caja-4 h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+}
+
+.caja-4 p {
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    margin-top: -4px;
+}
+
+.caja-5 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    margin: 20px;
+    left: 500px;
+    box-shadow: 10px +10px 5px rgba(44, 34, 38, 0.641);
+    top: 560px;
+}
+
+.caja-5 img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.caja-5 h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.caja-5 p {
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    margin-top: -4px;
+}
+
+
+.caja-6 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    margin: 20px;
+    left: 900px;
+    box-shadow: 10px +10px 5px rgba(44, 34, 38, 0.641);
+    top: 560px;
+}
+
+.caja-6 img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.caja-6 h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -2px;
+    margin-bottom: -4px;
+}
+
+.caja-6 p {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: -4px;
+}
+
+/*  */
+.caja-7 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    margin: 20px;
+    left: 100px;
+    box-shadow: 10px +10px 5px rgba(44, 34, 38, 0.641);
+    top: 1080px;
+}
+
+.caja-7 img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.caja-7 h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -2px;
+    margin-bottom: -4px;
+}
+
+.caja-7 p {
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: -4px;
+}
+
+.caja-8 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    margin: 20px;
+    left: 500px;
+    box-shadow: 10px +10px 5px rgba(44, 34, 38, 0.641);
+    top: 1080px;
+}
+
+.caja-8 img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.caja-8 h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.caja-8 p {
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: -4px;
+}
+
+
+.caja-9 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 450px;
+    margin: 20px;
+    left: 900px;
+    box-shadow: 10px +10px 5px rgba(44, 34, 38, 0.641);
+    top: 1080px;
+}
+
+.caja-9 img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.caja-9 h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -2px;
+    margin-bottom: -4px;
+}
+
+.caja-9 p {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: -4px;
+}
+
+
+
+
+.box1 {
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+    font-size: 4em;
+    color: aliceblue;
+    font-family: AUGUSTUS;
+    left: 55px;
+    top: -60px;
+
+}
+
+.parafo_bajo {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+
+}
+
+footer {
+    position: relative;
+    background-color: #0A0A0B;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    height: 320px;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+footer p {
+    text-align: left;
+    color: aliceblue;
+    margin-left: 40px;
+    padding-top: 120px;
+    font-size: 30px;
+    z-index: 1;
+}
+
+
+.footer-right img {
+    height: 300px;
+    width: auto;
+    float: right;
+    margin-right: 100px;
+    margin-top: -200px;
+}
